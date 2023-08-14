@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body,main {
+    height: 100vh;
+    background-color: black;
+}
+
+main {
+
+}
+
+#sec1 {
+    background-color: #d8c5c7;
+    height: 100vh;
+}
+
+#sec2 {
+    background-color: brown;
+    height: 100vh;
+}
