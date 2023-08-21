@@ -1,25 +1,32 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
 }
 
-body,main {
-    height: 100vh;
-    background-color: black;
+main {
+    
 }
 
 main {
-
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(pexels-andrea-piacquadio-3757952.jpg);
+    background-size: cover;
+    
 }
 
 #sec1 {
-    background-color: #d8c5c7;
+    width: 100vw;
     height: 100vh;
-}
-
-#sec2 {
-    background-color: brown;
-    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color: hsl(19, 53%, 38%);
+    background-color: rgba(85, 64, 32, 0.582);
+    text-align: center;
 }
